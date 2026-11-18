@@ -1,0 +1,11 @@
+dividendo = int(input("Digite o primeiro número (dividido): "))
+divisor = int(input("Digite o segundo número (o divisor): "))
+if divisor == 0:
+    print("Erro: Não é possível dividir por zero.")
+else:
+    resultado_exato = dividendo / divisor
+    quociente_inteiro = dividendo // divisor
+    resto = dividendo % divisor
+    print(f"\nResultado da divisão: {resultado_exato}")
+    print(f"Quociente inteiro: {quociente_inteiro}")
+    print(f"Resto da divisão: {resto}")
