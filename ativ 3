@@ -1,0 +1,4 @@
+total_minutos = int(input("Digite a quantidade de minutos: "))
+horas = total_minutos // 60
+minutos_restantes = total_minutos % 60
+print(f"{total_minutos} minutos equivalem a {horas} hora(s) e {minutos_restantes} minuto(s).")
