@@ -1,0 +1,12 @@
+numeros = []
+for i in range(5):
+    num = float(input(f"Digite o {i + 1}º número: "))
+    numeros.append(num)
+maior = max(numeros)
+menor = min(numeros)
+soma = sum(numeros)
+media = soma / len(numeros)
+print(f"\nMaior número: {maior}")
+print(f"Menor número: {menor}")
+print(f"Soma dos números: {soma}")
+print(f"Média: {media:.2f}")
