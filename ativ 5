@@ -1,0 +1,8 @@
+idade = int(input("Digite a sua idade: "))
+if idade < 12:
+    valor = 10.00
+elif idade <= 17:
+    valor = 15.00
+else:
+    valor = 25.00
+print(f"O valor do ingresso é: R$ {valor:.2f}")
